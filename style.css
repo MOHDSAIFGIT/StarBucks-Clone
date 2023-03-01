@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+    position: unset;
+    scroll-behavior: smooth;
+}
+.raw{
+    display: flex;
+    justify-content: space-evenly;
+    margin: none;
+    padding: 14PX;
+}
+.raw a{
+    color: rgb(118, 115, 115);
+    padding: 21px;
+}
+
+.SearchBar{
+    float: right;
+    padding: 10px;
+    /* border: none; */
+    margin-top: 12px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 50px;
+    width: auto;
+    height: 10px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.nav2{
+    background-color: #1e3932;
+    color: white;  
+    padding: 14px;   
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav2 button{
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+    color: white;
+    background-color: #1e3932;
+    border-color: white;
+}
+.best{
+    
+    /* display: flex; */
+    justify-content: center;
+    align-items: center; 
+}
+.best img{
+    width: 44%; 
+    border-radius: 50%; 
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 144px;
+    /* flex-wrap: wrap!important; */
+    /* background-color: black; */
+}
+.bestSe{
+    margin-left: 15px;
+    margin-top: 10px;
+    align-items: center;
+        
+}
+.Drink{
+    margin-left: 26px;
+    margin-top: 10px;
+}
+.food{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.Merchandise{
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.Coffee{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.Eat{
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.Menu_text{
+    margin-bottom: 1em;
+    font-family: SoDoSans_Bold,Helvetica,sans-serif!important;
+    color: #1e3932;
+    padding-left: 6.35em;
+}
+.BRecommends{
+    background-color:rgb(237,235,233);
+    /* display: flex; */
+}
+.BR1-section{
+    border: solid;
+    max-width: 10%;
+    background-color: rgb(255,255,255) ;
+    display: flex;
+}
+.BR1 img{
+    width: 6%;
+    border-radius: 9px;
+}

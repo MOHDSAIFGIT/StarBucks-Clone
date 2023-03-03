@@ -97,17 +97,20 @@ body{
     color: #1e3932;
     padding-left: 6.35em;
 }
-.BRecommends{
-    background-color:rgb(237,235,233);
+.BR-container{
+    background-color: rgb(237,235,233);
+}
+.BR-upper-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 150px ;
+}
+.BR-content-box{
+    background-color: rgb(255,255,255);
+    border: 1px solid;
     /* display: flex; */
 }
-.BR1-section{
-    border: solid;
-    max-width: 10%;
-    background-color: rgb(255,255,255) ;
+.BR-box1{
     display: flex;
-}
-.BR1 img{
-    width: 6%;
-    border-radius: 9px;
 }
